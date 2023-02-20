@@ -1,0 +1,471 @@
+/*default style [Mobile]*/
+*{
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px 7px rgb(46, 72, 19);
+    color: rgb(46, 72, 19);
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(215, 247, 194);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(215, 247, 194);
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for  mobile --- Full screen*/
+[class*="col-"]{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: rgb(154, 226, 105);
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.navbar h1{
+    color: rgb(78, 113, 43);
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 2.8rem;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu a{
+    font-size: 1.1rem;
+    background-color: rgb(100, 147, 54);
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(78, 113, 43);
+}
+
+/* div clear */
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* ___________________________________Nav ends________________________________ */
+.profile{
+    padding: 110px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.profile .no-face{
+    position: absolute;
+    right: 50px;
+    top:20px;
+    transition: transform 2s;
+}
+
+.profile .no-face:hover{
+    transform: rotate(360deg);
+}
+
+.profile h1{
+    font-size: 2.2rem;
+    font-family: 'Bad Script', cursive;
+}
+
+.description{
+    color: rgb(63, 93, 33);
+}
+
+.description p{
+    text-align: center;
+    color: rgb(100, 147, 54);
+    margin: 0 auto 20px auto;
+    width: 95%; 
+}
+
+.profile .pink{
+    position: absolute;
+    left: 60px;
+    bottom:10px;
+    transition: transform 2s;
+    padding: 0;
+}
+
+.profile .pink:hover{
+    transform: rotate(360deg);
+}
+
+/* div clear */
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ___________________profile div ends___________________________________ */
+
+/* About Design */
+.about{
+    background-color: rgb(78, 113, 43);
+    color: rgb(215, 247, 194);
+    padding:10% 7%;
+    text-align: center;
+}
+
+.dotted-hr{
+    border: dotted 6px rgb(215, 247, 194);
+    border-bottom: none;
+    margin: 20px auto;
+    width: 150px;
+}
+
+.about-img img{
+    border: 5px solid rgb(215, 247, 194);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.about a{
+    color: rgb(242, 255, 234);
+}
+
+.abt-desc-hr{
+    border: 2px solid rgb(215, 247, 194);
+    border-bottom: none;
+}
+
+.pint{
+    background-color:rgb(215, 247, 194);
+    color: rgb(78, 113, 43);
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin: 10px 0px;
+}
+
+.icon-button{
+    /* padding: 5px 2px; */
+    text-align: center;
+}
+
+.btn{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: none;
+    /* padding: 2px;  */
+    font-size: 2rem;
+    margin: 1rem;
+    background-color:rgb(215, 247, 194);
+}
+
+.icon-button i{
+    color: rgb(78, 113, 43);
+}
+
+.icon-button i:hover{
+    color: rgb(34, 55, 11);
+} 
+
+.btn:hover{
+    /* color: rgb(34, 55, 11); */
+    box-shadow: 0px 0px 7px 7px rgb(34, 55, 1);
+}
+
+.about::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* ________________________About Done_____________________________________________ */
+
+
+/* Experience section */
+
+.experience{
+    padding: 1% 0%;
+}
+
+.card{
+    background-color: rgb(154, 226, 105);
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.5s;
+    height: auto;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 5px rgb(46, 72, 19);;
+}
+
+.card-icon{
+    text-align: center;
+}
+
+.card-icon img{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.card-title{
+    background-color: rgb(78, 113, 43);
+    color: rgb(215, 247, 194);
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.rounded-img{
+    border: 4px solid rgb(215, 247, 194);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* SKILL CARD progress bar design */
+
+.skill li{
+    list-style-type: none;
+    margin: 50px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;  /*to create pole in absolute position*/
+}
+
+.skill li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px); /*adjustment calc() to calculate 5px+ with total height(100%)*/
+    left: 0px; /*start of bars*/
+
+    background-color: rgb(192, 250, 182);
+    width: 100%;
+    height: 10px;
+    /*till now the bars are created with empty contents 
+    and they have covered up ul
+    to clear up adjust li position*/
+
+    border-radius: 800px;
+}
+
+.skill li::after{  
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px); 
+    left: 0px; 
+
+    background-color: rgb(28, 80, 49);
+    width: 0;  /*initially no fill, will start fill after animation*/
+    height: 10px;
+
+    border-radius: 1000px;
+    
+    /*animation*/
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+    /*animation-direction: forward; */
+    animation-fill-mode: forwards;
+}
+
+.skill li.html::after{
+    animation-name: html;
+}
+
+@keyframes html { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 90%;
+        background-color:rgb(73, 195, 59);
+    }
+}
+
+.skill li.css::after{
+    animation-name: css;
+}
+
+@keyframes css { 
+    to{
+        width: 70%;
+        background-color:rgb(91, 221, 134);
+    }
+}
+
+.skill li.sql::after{
+    animation-name: sql;
+}
+
+@keyframes sql { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 50%;
+        background-color:rgb(116, 170, 127);
+    }
+}
+
+.skill li.py::after{
+    animation-name: py;
+}
+
+@keyframes py { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 90%;
+        background-color:rgb(7, 195, 57);
+    }
+}
+
+.skill li.java::after{
+    animation-name: java;
+}
+
+@keyframes java { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 80%;
+        background-color:rgb(54, 196, 92);
+    }
+}
+
+.skill li.r::after{
+    animation-name: r;
+}
+
+@keyframes r { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 30%;
+        background-color:rgb(83, 192, 112);
+    }
+}
+
+
+.skill li.js::after{
+    animation-name: js;
+}
+
+@keyframes js { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 10%;
+        background-color:rgb(96, 113, 105);
+    }
+}
+
+.experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ________________________Experience Done also_______________________________________________________- */
+
+/* PROJECTS Design */
+.projects{
+    background-image: url(images/projects.jpg);
+    box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(29, 51, 15, 0.621);
+    
+    background-color: rgb(78, 113, 43);
+    color: rgb(215, 247, 194);
+    padding: 5% 7%;
+    text-align: center;
+    margin: 1% 3%;
+}
+
+.dotted-hr{
+    border: dotted 6px rgb(215, 247, 194);
+    border-bottom: none;
+    margin: 20px auto;
+    width: 150px;
+}
+
+.projects-img img{
+    border: 5px solid rgb(215, 247, 194);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.projects li{
+    list-style-type: circle;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+
+.projects-desc{
+    position: relative;
+}
+
+.projects::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* ________________________About Done_____________________________________________ */
+
+
+/* FOOTER */
+.footer{
+    background-color: rgb(67, 101, 44);
+    color: rgb(215, 247, 194);
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer a{
+    padding: 5px 0px;
+    display: block;
+    margin: 15px 0px;
+    font-size: 1rem;
+}
+
+.footer a:hover{
+    background-color: rgb(81, 121, 55);
+    color: rgb(224, 247, 209);
+    border-radius: 10px;
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}

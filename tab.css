@@ -1,0 +1,310 @@
+body{
+    background-color: rgb(255, 204, 196);
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px 7px rgb(57, 9, 5);
+    color: rgb(57,9,5);
+}
+
+.profile img{
+    height: 90px;
+    width: 90px;
+}
+
+a{
+    color:   rgb(255, 204, 196);
+}
+
+.navbar{
+    background-color: rgb(255, 164, 150);
+}
+
+.nav-head h1{
+    margin-top: 30%;
+    color: rgb(146, 30, 13);
+    text-align: left;
+}
+
+/* .nav-logo{
+    text-align: left;
+} */
+
+.navbar{
+    position: relative;
+}
+
+.navbar .logo{
+    position: absolute;
+    left: 70px;
+    top:18px;
+}
+
+.nav-menu{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding: 5px 0px;
+    background-color: rgb(202, 60, 38);
+    margin: 5px 5px;
+}
+
+.nav-menu a:hover{
+    background-color: rgb(146, 30, 13);
+}
+
+/* for desktop */
+.col-s-1{width: 8.33%;}
+.col-s-2{width: 16.66%;}
+.col-s-3{width: 25%;}
+.col-s-4{width: 33.33%;}
+.col-s-5{width: 41.66%;}
+.col-s-6{width: 50%;}
+.col-s-7{width: 58.33%;}
+.col-s-8{width: 66.66%;}
+.col-s-9{width: 75%;}
+.col-s-10{width: 83.33%;}
+.col-s-11{width: 91.66%;}
+.col-s-12{width: 100%;}
+
+/* ________Nav bar ended___________________________________________________________ */
+
+/* profile starts*/
+.profile .no-face{
+    transition: width 2s height 2s;
+}
+
+.profile .no-face:hover{
+    width: 120px;
+    height: 120px;
+}
+
+
+.description{
+    color: rgb(93, 33, 33);
+}
+
+.description p{
+    color: rgb(147, 55, 54);
+    margin: 0 auto;
+}
+
+.profile .pink{
+    transition: width 2s height 2s;
+}
+
+.profile .pink:hover{
+    width: 120px;
+    height: 120px;
+}
+
+/* _____________________Profile ends_____________________________________ */
+
+/* About div */
+
+.about{
+    background-color: rgb(102, 25, 13);
+    color:rgb(255, 204, 196);
+    padding: 1% 7%;
+}
+
+.dotted-hr{
+    border: dotted 6.5px rgb(255, 204, 196);
+    border-bottom: none;
+}
+
+.abt-desc-hr{
+    border: 2px solid rgb(247, 194, 194);
+    border-bottom: none;
+}
+
+
+.about-img{
+    margin-top: 55px;
+}
+
+.about-img img{
+    border: 5px solid rgb(255, 204, 196);
+    height: 240px;
+    width: 240px;
+}
+
+.about a{
+    color: rgb(255, 235, 232);
+}
+
+.pint{
+    background-color:rgb(253, 162, 135);
+    color: rgb(146, 30, 13);
+}
+
+.btn{
+    background-color:rgb(253, 162, 135);
+}
+
+.icon-button i{
+    color: rgb(146, 30, 13);
+}
+
+.icon-button i:hover{
+    color: rgb(68, 16, 9);
+} 
+
+.btn:hover{
+    /* color: rgb(34, 55, 11); */
+    box-shadow: 0px 0px 7px 7px rgb(68, 16, 9);
+}
+
+/* __________________________About DONE_______________________________________________________ */
+
+/* Experience section */
+.experience{
+    padding: 2% 1%;
+}
+
+.card{
+    background-color: rgb(255, 166, 150);
+    margin: 0% 1%;
+    padding: 0% 2%;
+    height: 810px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 5px rgb(72, 23, 19);
+}
+
+.card-title{
+    background-color: rgb(113, 43, 43);
+    color: rgb(255, 161, 162);
+}
+
+.rounded-img{
+    border: 5px dotted rgb(113, 43, 43);
+}
+
+.skill li::before{
+    background-color: rgb(250, 182, 182);
+}
+
+.skill li::after{  
+    background-color: rgb(80, 28, 28);
+}
+
+
+@keyframes html { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 90%;
+        background-color:rgb(195, 59, 93);
+    }
+}
+
+
+@keyframes css { 
+    to{
+        width: 70%;
+        background-color:rgb(221, 91, 113);
+    }
+}
+
+@keyframes sql { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 50%;
+        background-color:rgb(188, 81, 108);
+    }
+}
+
+@keyframes py { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 90%;
+        background-color:rgb(195, 7, 45);
+    }
+}
+
+@keyframes java { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 80%;
+        background-color:rgb(196, 54, 68);
+    }
+}
+
+@keyframes r { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 30%;
+        background-color:rgb(192, 83, 101);
+    }
+}
+
+@keyframes js { /*keyframes is like a function call. whenever animation name html the compiler comes here*/
+    to{
+        width: 10%;
+        background-color:rgb(118, 85, 85);
+    }
+}
+/* ________________________Experience Done also_______________________________________________________- */
+
+
+/* PROJECT section */
+.projects{
+    background-color: rgb(72, 24, 24);
+    background-image: url("images/projects.jpg");
+    background-repeat: no-repeat;
+    color: rgb(247, 194, 195);
+    background-attachment: fixed;  /*fixes positioning problem */
+
+    /* for an overlay */
+    box-shadow: 0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(146, 52, 12, 0.274);
+}
+
+.dotted-hr{
+    border: dotted 6px rgb(247, 194, 210);
+    border-bottom: none;
+}
+
+.projects-img img{
+    border: none;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.projects-img{
+    margin: 30% 0%;
+}
+
+.projects li{
+    list-style-type: none;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.projects-desc{
+    border-radius: 20px;
+    background-color: rgb(102, 25, 13);
+    position: relative;
+}
+/* ______________________________________________--- */
+
+.footer{
+    background-color: rgb(79, 19, 9);
+    color: rgb(247, 194, 195);
+}
+
+.footer-menu{
+    margin-top: 12px;
+    display: inline;
+}
+
+.footer-menu a{
+    padding: 2px 10px;
+    display: inline;
+    margin: 7px;
+}
+
+ .footer a:hover{
+    background-color: rgb(133, 39, 24);
+    color: rgb(253, 220, 221);
+    border-radius: 8px;
+    box-shadow: 0px 6px 8px 7px rgb(49, 3, 3);
+} 
